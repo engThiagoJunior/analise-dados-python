@@ -1,0 +1,33 @@
+DATASETS UTILIZADOS
+
+1) Censo Demográfico 2022 – IBGE
+   Fonte: Instituto Brasileiro de Geografia e Estatística (IBGE)
+   Página: https://censo2022.ibge.gov.br/panorama/?localidade=BR
+   Tabelas usadas:
+   - Panorama do Censo 2022 (população por cor/raça, sexo, religião,
+     situação do domicílio, favelas, composição domiciliar, nível de
+     instrução, pirâmide etária, alfabetização, características do
+     entorno e dos domicílios)
+   - Local da creche ou escola (por sexo, cor/raça e classes de rendimento)
+   - Alfabetização por grupo de idade, sexo e cor/raça
+   Acesso: 03/11/2025
+
+2) Censo 2022 – tabela por município (br_ibge_censo_2022_municipio)
+   Fonte: IBGE, tratada e disponibilizada pela Base dos Dados
+   Página: https://basedosdados.org
+   Colunas usadas: id_municipio, sigla_uf, domicilios, populacao, area,
+   taxa_alfabetizacao, idade_mediana, indice_envelhecimento
+   Acesso: 03/11/2025
+
+3) Divisão Territorial Brasileira (DTB) 2024 – IBGE
+   Fonte: IBGE, Divisão Territorial Brasileira
+   Arquivos: RELATORIO_DTB_BRASIL_2024_DISTRITOS / _MUNICIPIOS / _SUBDISTRITOS
+   Página: https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-regional/23701-divisao-territorial-brasileira.html?edicao=43194
+   Acesso: 03/11/2025
+
+4) Distritos criados e extintos (Distritos_novos.xlsx, Distritos Extintos.xlsx)
+   Fonte: IBGE
+
+DERIVADOS (gerados no próprio projeto, não são fontes externas)
+- dados_demograficos_uf.csv: criado no notebook de projeto_1/03_envelhecimento_linha_eixo_duplo.ipynb a partir
+  da tabela de municípios do Censo 2022.
